@@ -37,4 +37,4 @@ route$add_handler(method = 'get',
 
 router$add_route(route, 'home')
 
-router$add_route(static_route, 'static', after = 1)
+# router$add_route(static_route, 'static', after = 1)
