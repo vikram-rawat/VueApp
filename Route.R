@@ -13,16 +13,21 @@ route$add_handler(method = 'get',
                   handler = homeFallback)
 
 route$add_handler(method = 'get',
-                  path = '/dummycss/:somefile',
+                  path = '/css/:somefile',
                   handler =  serveCss
                   )
 
 route$add_handler(method = 'get',
-                  path = '/dummyjs/:somefile',
+                  path = '/js/:somefile',
                   handler =  serveJs
                   )
 
-static_route <- ressource_route('/dummy' = "dummy/")
+route$add_handler(method = 'get',
+                  path = '/img/:somefile',
+                  handler =  serveImage
+                  )
+
+# static_route <- ressource_route('/dummy' = "dummy/")
 
 # create router -----------------------------------------------------------
 
