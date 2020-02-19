@@ -9,9 +9,7 @@ router <- RouteStack$new()
 route$add_handler('get', '/helloworld', home)
 
 route$add_handler('get', '/', homeFallback)
-static_route <- ressource_route('/dist' = "vue-app/dist/",
-                                default_file = "vue-app/dist/css/app.fb0c6e1c.css",
-                                default_ext = ".css")
+static_route <- ressource_route('/dummy' = "dummy/")
 
 # create router -----------------------------------------------------------
 
