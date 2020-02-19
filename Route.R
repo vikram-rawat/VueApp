@@ -10,7 +10,11 @@ route$add_handler('get', '/helloworld', home)
 
 route$add_handler(method = 'get',
                   path =  '/',
-                  handler = homeFallback)
+                  handler = home)
+
+route$add_handler(method = 'get',
+                  path =  '/json',
+                  handler = jsonHome)
 
 route$add_handler(method = 'get',
                   path = '/css/:somefile',
