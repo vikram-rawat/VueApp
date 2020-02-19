@@ -13,6 +13,6 @@ home <- function(request, response, keys, ...) {
 homeFallback <- function(request, response, keys, ...) {
   response$status <- 200L
   response$type <- 'html'
-  response$body <- '<h1>go to helloworld'
+  response$body <- readHtml("vue-app/dist/index.html")
   return(FALSE)
 }

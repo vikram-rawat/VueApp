@@ -22,14 +22,6 @@ app <- Fire$new(port = 9001)
 
 app$attach(router)
 
-# # Handle requests
-# app$on('request', function(server, request, ...) {
-#     response <- request$respond()
-#     response$status <- 200L
-#     response$body <- readHtml("vue-app/dist/index.html")
-#     response$type <- 'html'
-# })
-
 # Be polite
 app$on('end', function(server) {
     message('Goodbye')
