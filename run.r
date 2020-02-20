@@ -15,7 +15,7 @@ library(jsonlite)
 source("R/functions.R")
 source("Routes/home.R")
 source("Routes/statics.R")
-source("Route.R")
+source("Routes/mainRoute.R")
 
 # create App --------------------------------------------------------------
 # Create a New App
