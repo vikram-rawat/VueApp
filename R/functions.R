@@ -1,8 +1,9 @@
 # load html ---------------------------------------------------------------
 
 readHtml <- function(filename) {
-  readChar(con = filename,
-           file.info(filename)$size)
+  readBin(con = filename,
+          raw(),
+          file.info(filename)$size)
 }
 
 # load statics ------------------------------------------------------------

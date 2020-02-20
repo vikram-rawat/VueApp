@@ -31,7 +31,7 @@ route$add_handler(method = 'get',
                   handler =  serveImage
                   )
 
-# static_route <- ressource_route('/dummy' = "dummy/")
+# static_route <- ressource_route('/' = system.file(package = 'routr'))
 
 # create router -----------------------------------------------------------
 
