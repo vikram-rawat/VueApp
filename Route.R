@@ -22,12 +22,12 @@ route$add_handler(method = 'get',
                   )
 
 route$add_handler(method = 'get',
-                  path = '/js/:somefile',
+                  path = '/_nuxt/:somefile',
                   handler =  serveJs
                   )
 
 route$add_handler(method = 'get',
-                  path = '/img/:somefile',
+                  path = '/_nuxt/icons/:somefile',
                   handler =  serveImage
                   )
 

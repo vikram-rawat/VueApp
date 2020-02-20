@@ -4,7 +4,7 @@
 home <- function(request, response, keys, ...) {
   response$status <- 200L
   response$type <- 'html'
-  response$body <- readHtml("vue-app/dist/index.html")
+  response$body <- readHtml("fiery-app/dist/index.html")
   return(FALSE)
 }
 

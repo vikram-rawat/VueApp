@@ -13,7 +13,7 @@ serveCss <- function(request, response, keys, ...) {
 serveJs <- function(request, response, keys, ...) {
   response$status <- 200L
   response$type <- 'text/javascript'
-  response$body <- readCss(paste0("vue-app/dist/js/", keys))
+  response$body <- readCss(paste0("fiery-app/dist/_nuxt/", keys))
   return(FALSE)
 }
 
@@ -23,6 +23,6 @@ serveImage <- function(request, response, keys, ...) {
 
   response$status <- 200L
   response$type <- 'text/javascript'
-  response$body <- readCss(paste0("vue-app/dist/img/", keys))
+  response$body <- readCss(paste0("fiery-app/dist/_nuxt/icons/", keys))
   return(FALSE)
 }

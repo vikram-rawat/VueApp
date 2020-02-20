@@ -1,0 +1,20 @@
+{
+  "name": "fiery-app",
+  "version": "1.0.0",
+  "description": "Connecting Vue with R Programming",
+  "author": "Vikram Singh Rawat",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/pwa": "^3.0.0-0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
