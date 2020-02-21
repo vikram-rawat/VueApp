@@ -19,7 +19,8 @@ source("Routes/mainRoute.R")
 
 # create App --------------------------------------------------------------
 # Create a New App
-app <- Fire$new(port = 9001)
+app <- Fire$new(host = "127.0.0.1",
+                port = 9001)
 
 app$attach(router)
 
