@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.0.0",
+    "Version": "3.6.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -158,10 +158,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.4",
+      "Version": "0.4.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "09a36f36a13436be327dad3d000c8dd3"
+      "Hash": "1cc1b38e4db40ea6eb19ab8080bbed3b"
     },
     "routr": {
       "Package": "routr",
